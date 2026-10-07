@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="acceuil">
+        <h1>Bibliothéque de l'ISET du Kef</h1>
+        <p>Lire, apprendre et partager</p>
+    </header>
+    <nav aria-label="Navigation principale">
+        <a href="#Presentation">Préssentation</a>
+        <a href="#ressources">Ressources</a>
+        <a href="#actualites">Actualité</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <h2>Demende d'emprunt</h2>
+        <p>Les champs Nom,Email et Livres sont obligatoire</p>
+        <table>
+            <tr>
+                <td>
+                    <label>Nom*</label>
+                </td>
+                <td>
+                    <input type="text" id="nom">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Email*</label></td>
+                <td><input type="email" id="em"></td>
+            </tr>
+            <tr>
+                <td><label for="">Livres*</label></td>
+                <td><input type="text" id="livre"></td>
+            </tr>
+            <tr>
+                <td><label for="">Livre*</label></td>
+                <td>
+                    <select name="" id="liste">
+                        <option value="">Choisir un livre</option>
+                        <option value="lpp">Le Petit Prince — Antoine de Saint-Exupéry (Classique / Conte philosophique)</option>
+                        <option value="ea">L'Étranger — Albert Camus (Roman philosophique)</option>
+                        <option value="df">Dune — Frank Herbert (Science-fiction)</option>
+                        <option value="l4a">Les 4 accords toltèques — Don Miguel Ruiz (Développement personnel)</option>
+                        <option value="1984">1984 — George Orwell (Anticipation / Science-fiction)</option>
+                        <option value="ldv">L'Ombre du vent — Carlos Ruiz Zafón (Roman historique / Mystère)</option>
+                        <option value="s">Sapiens : Une brève histoire de l'humanité — Yuval Noah Harari (Essai / Histoire)</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Message</label></td>
+                <td><input type="text" id="msg"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" name="" id="envoyer" value="Envoyer le demende"></td>
+            </tr>
+        </table>
+    </main>
+    <footer id="contact">
+        <p>Institut superieur des etudes technologiques du Kef</p>
+        <adress>
+            Contact fictifs : <a href="mailto:bibliotheque@exemple.com">
+                bibliotheque@exemple.com
+            </a>
+        </adress>
+    </footer>
+</body>
+</html>
